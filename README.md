@@ -13,3 +13,11 @@ Required packages:
 pip install vos
 
 pip install keras
+
+etc..
+
+git clone above github link
+
+cd starnet
+
+open 1st notebook and go
