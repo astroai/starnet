@@ -7,6 +7,11 @@ Required packages:
 - Matplotlib 
 - Seaborn
 - sklearn
+- vos
+
+pip install vos
+
+pip install keras
 
 vospace:
 
