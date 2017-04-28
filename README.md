@@ -8,28 +8,35 @@ Required packages:
 - Seaborn
 - sklearn
 - vos
+- jupyter
 
 command line:
 
 ```
-
+pip install numpy
+pip install h5py
+pip install matplotlib 
+pip install seaborn
+pip install sklearn
+pip install keras
 pip install vos
-
-user$ pip install keras
-
+pip install jupyter
 ```
 
-etc..
+Create a CADC account here [url]
 
 ```
-
 git clone [above github link]
-
 cd starnet
-  
-jupyter notebook
+get Cert
+```
+
+enter your CADC account information
 
 ```
+jupyter notebook
+```
+A new browser tab should pop up, if not, copy and paste the given link into your in your browser.
 
 Before starting any of the other notebooks, be sure to read through 1_Download_Data.ipynb to find out what data you need for which notebooks. Not all of the available data is completely necessary depending on where you would like to begin, but reading through the notebooks will provide a more complete understanding of the necessary steps taken when creating a neural network model.
 
