@@ -11,7 +11,10 @@ Required packages:
 
 command line:
 
-  user$ pip install vos
+'''
+pip install vos
+
+'''
 
   user$ pip install keras
 
