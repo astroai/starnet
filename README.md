@@ -29,15 +29,16 @@ Below is a description of the available notebooks:
 
 1_Download_Data.ipynb
 - provides descriptions of all of the available data, where the data is necessary, and the scripts needed to download the data
+- files available for download in this notebook: apStar_visits_main.h5, apStar_combined_main.h5, high_snr_test_apids.npy, training_set.h5, mean_and_std.npy, high_snr_test_data.h5, low_snr_test_data.h5
 
 2_Preprocessing_of_Training_Data.ipynb
-- step by step preproceprocessing of training data to create a training set
+- step by step preproceprocessing of the training data to create a training set
 - required files to run this notebook: apStar_visits_main.h5
 - files created in this notebooks: high_snr_test_apids.npy and training_set.h5
 
 3_Preprocessing_of_Test_Data.ipynb
 - step by step preproceprocessing of test data to create two test sets
-- required files to run this notebook: apStar_combined_main.h5
+- required files to run this notebook: apStar_combined_main.h5 and high_snr_test_apids.npy
 - files created in this notebooks: mean_and_std.npy, high_snr_test_data.h5 and low_snr_test_data.h5
 
 4_Train_Model_Keras_1.ipynb
