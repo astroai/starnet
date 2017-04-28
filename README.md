@@ -28,7 +28,7 @@ Create a CADC account here [url]
 ```
 git clone [above github link]
 cd starnet
-get Cert
+getCert
 ```
 
 enter your CADC account information
