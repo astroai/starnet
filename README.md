@@ -27,7 +27,8 @@ git clone [above github link]
 
 cd starnet
   
-user$ jupyter notebook
+jupyter notebook
+
 ```
 
 Before starting any of the other notebooks, be sure to read through 1_Download_Data.ipynb to find out what data you need for which notebooks. Not all of the available data is completely necessary depending on where you would like to begin, but reading through the notebooks will provide a more complete understanding of the necessary steps taken when creating a neural network model.
