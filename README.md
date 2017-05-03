@@ -1,3 +1,5 @@
+Use python2.7
+
 Required packages:
 - numpy
 - h5py
