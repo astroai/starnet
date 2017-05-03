@@ -19,6 +19,7 @@ pip install matplotlib
 pip install seaborn
 pip install sklearn
 pip install keras
+pip install tensorflow
 pip install vos
 pip install jupyter
 ```
