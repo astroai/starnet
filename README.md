@@ -67,9 +67,22 @@ Below is a description of the available notebooks:
 - required files to run this notebook: mean_and_std.npy and training_set.h5
 - files created in this notebooks: Model_0.h5
 
+4_Train_Model_Keras_1_Simple.ipynb
+- IMPORTANT: if you are limited to simple computing resources, use this notebook instead of 4_Train_Model_Keras_1.ipynb
+- this notebook is identical to 4_Train_Model_Keras_1.ipynb but uses fewer training examples and more iterations
+- required files to run this notebook: mean_and_std.npy and training_set.h5
+- files created in this notebooks: Model_0.h5
+
+4_Train_Model_Keras_2_Simple.ipynb
+- IMPORTANT: if you are limited to simple computing resources, use this notebook instead of 4_Train_Model_Keras_2.ipynb
+- this notebook is identical to 4_Train_Model_Keras_2.ipynb but uses fewer training examples and more iterations
+- required files to run this notebook: mean_and_std.npy and training_set.h5
+- files created in this notebooks: Model_0.h5
+
 5_Test_Model.ipynb
 - obtain model predictions for the test sets and plot the results against ASPCAP DR12 labels
 - required files to run this notebook: mean_and_std.npy, high_snr_test_data.h5, and low_snr_test_data.h5
 
 6_Error_Propogation.ipynb
-
+- obtain model statistical errors for a test set predictions
+- required files to run this notebook: mean_and_std.npy, a test set of your choice, apStar_combined_main.h5
