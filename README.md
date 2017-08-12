@@ -58,7 +58,7 @@ Below is a description of the available notebooks:
 
 5_Test_Model.ipynb
 - obtain model predictions for the test set and plot the results against ASPCAP DR13 labels
-- required files to run this notebook: mean_and_std.npy, test_data.h5
+- required files to run this notebook: mean_and_std.npy, test_data.h5, starnet_cnn.h5
 
 6_Error_Propagation.ipynb
 - obtain model statistical errors for a test set predictions
