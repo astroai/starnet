@@ -44,16 +44,16 @@ Below is a description of the available notebooks:
 2_Preprocessing_of_Training_Data.ipynb
 - step by step preproceprocessing of the training data to create a training set
 - required files to run this notebook: apStar_visits_main.h5
-- files created in this notebooks: training_set.h5
+- files created in this notebooks: training_data.h5
 
 3_Preprocessing_of_Test_Data.ipynb
 - step by step preproceprocessing of test data to create a test set
-- required files to run this notebook: apStar_combined_main.h5
+- required files to run this notebook: apStar_combined_main.h5 and training_data.h5
 - files created in this notebooks: mean_and_std.npy and test_data.h5
 
 4_Train_Model.ipynb
 - building model architecture, setting hyper-parameters, and training model using Keras
-- required files to run this notebook: mean_and_std.npy and training_set.h5
+- required files to run this notebook: mean_and_std.npy and training_data.h5
 - files created in this notebooks: starnet_cnn.h5
 
 5_Test_Model.ipynb
