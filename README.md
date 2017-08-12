@@ -39,27 +39,27 @@ Below is a description of the available notebooks:
 
 1_Download_Data.ipynb
 - provides descriptions of all of the available data, where the data is necessary, and the scripts needed to download the data
-- files available for download in this notebook: apStar_visits_main.h5, apStar_combined_main.h5, high_snr_test_apids.npy, training_set.h5, mean_and_std.npy, high_snr_test_data.h5, low_snr_test_data.h5
+- files available for download in this notebook: apStar_visits_main.h5, apStar_combined_main.h5, training_set.h5, mean_and_std.npy, test_data.h5
 
 2_Preprocessing_of_Training_Data.ipynb
 - step by step preproceprocessing of the training data to create a training set
 - required files to run this notebook: apStar_visits_main.h5
-- files created in this notebooks: high_snr_test_apids.npy and training_set.h5
+- files created in this notebooks: training_set.h5
 
 3_Preprocessing_of_Test_Data.ipynb
-- step by step preproceprocessing of test data to create two test sets
-- required files to run this notebook: apStar_combined_main.h5 and high_snr_test_apids.npy
-- files created in this notebooks: mean_and_std.npy, high_snr_test_data.h5 and low_snr_test_data.h5
+- step by step preproceprocessing of test data to create a test set
+- required files to run this notebook: apStar_combined_main.h5
+- files created in this notebooks: mean_and_std.npy and test_data.h5
 
 4_Train_Model.ipynb
-- building model architecture, setting hyper-parameters, and training model using Keras 1
+- building model architecture, setting hyper-parameters, and training model using Keras
 - required files to run this notebook: mean_and_std.npy and training_set.h5
-- files created in this notebooks: Model_0.h5
+- files created in this notebooks: starnet_cnn.h5
 
 5_Test_Model.ipynb
-- obtain model predictions for the test sets and plot the results against ASPCAP DR12 labels
-- required files to run this notebook: mean_and_std.npy, high_snr_test_data.h5, and low_snr_test_data.h5
+- obtain model predictions for the test set and plot the results against ASPCAP DR13 labels
+- required files to run this notebook: mean_and_std.npy, test_data.h5
 
 6_Error_Propagation.ipynb
 - obtain model statistical errors for a test set predictions
-- required files to run this notebook: mean_and_std.npy, a test set of your choice, apStar_combined_main.h5
+- required files to run this notebook: mean_and_std.npy, test_data.h5, starnet_cnn.h5
