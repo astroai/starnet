@@ -1,6 +1,6 @@
 This is a list of Jupyter notebooks associated with StarNet to apply on SDSS APOGEE data.
  
-They have been tested with python-2.7, some dependencies are not python-3 ready yet.
+They have been tested with python-2.7 and python-3.5
 
 Required packages:
 - numpy
